@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+    /* border: solid; */
+    display: flex;
+
+}
+
+ 
+
+header .main {
+    height: 100vh;
+    width: 100vw;
+  
+
+}
+
+header nav h3 {
+    display: flex;
+    gap: 50vh;
+}
+
+.logo {
+    border: solid;
+    padding-left: 15vh;
+    margin-top: 3vh;
+   font-size: 10px;
+   
+   
+
+}
+
+
+.option {
+    border: solid;
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    margin-top: 5vh;
+  padding-left: 12vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+    }
+
+
+
+.k12  {
+    
+  background-image: url(https://www.supercars.net/blog/wp-content/uploads/2025/01/2022-Pagani-Huayra-R_1301051-1521x760.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+    height: 100vh;
+    margin-top: 5vh;
+    padding-top: 10vh;
+    padding-left: 4vw;
+    width: 100vw;
+   color: white;
+    font-size: 25px;
+}
+.k12 h6{
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+.K15{
+  background-image: url(https://elements-resized.envatousercontent.com/elements-video-cover-images/files/232701938/590.png?w=500&cf_fit=cover&q=85&format=auto&s=22f0053940d314208030244f5cd3975273d99f66e28e08d7b38dcf65b6d2acd3);   
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .page4{
+    text-align: center;
+    margin-top: 20vh;
+ }
+ .page4 h1{
+    font-size: 40px;
+    padding-top: 2vh;
+
+ }
+ .slab ,.suz ,.zian ,.ninja{
+    border: solid;
+    border-color: whitesmoke;
+    height: 40vh;
+    padding-top: 10vh;
+    width: 20vw;
+    height: 40vh;
+    gap: 30px;
+   text-align: center;
+   font-size: -40vh;
+   justify-content: space-between;
+   align-content: space-around;
+   image-rendering: crisp-edges;
+}
+.bals ,.zus ,.naiz ,.ajnin{
+    border: solid;
+    border-color: whitesmoke;
+    height: 10vh;
+    margin-top: 2vh;
+    text-align: left;
+    padding-top: 2vh;
+    text-decoration-color: silver;
+    color: rgb(52, 51, 51);
+
+}
+.next{ 
+    gap: 50px;
+    display: flex;
+    padding: 30px 40px 30px 40px;  
+}
+
+.das ,.fut ,.las ,.hut{
+  
+    height: 40vh;
+ margin-top: -15vh;
+    width: 20vw;
+    height: 40vh;
+    gap: 30px;
+ text-align: left;
+   font-size: -40vh;
+   justify-content: space-between;
+   align-content: space-around;
+   image-rendering: crisp-edges;
+}
+
+
+.rat{ 
+    gap: 50px;
+    display: flex;
+    padding: 30px 40px 30px 40px;  
+}
+.deb ,.mat ,.cap ,.nap{
+    border: solid;
+    border-color: whitesmoke;
+    height: 40vh;
+    padding-top: 8vh;
+    width: 20vw;
+    height: 40vh;
+    gap: 30px;
+   text-align: center;
+   font-size: -40vh;
+   justify-content: space-between;
+   align-content: space-around;
+   image-rendering: crisp-edges;
+}
+.bed ,.tam ,.pac ,.pan{
+    border: solid;
+    border-color: whitesmoke;
+    height: 10vh;
+    margin-top: 2vh;
+    text-align: left;
+    padding-top: 2vh;
+    text-decoration-color: silver;
+    color: rgb(52, 51, 51);
+
+}
+.raw{ 
+    gap: 50px;
+    display: flex;
+    padding: 30px 40px 30px 40px;  
+}
+.wall ,.wake ,.weep ,.deep{
+  
+    height: 40vh;
+ margin-top: -15vh;
+    width: 20vw;
+    height: 40vh;
+    gap: 30px;
+ text-align: left;
+   font-size: -40vh;
+   justify-content: space-between;
+   align-content: space-around;
+   image-rendering: crisp-edges;
+}
+
+
+.sat{ 
+    gap: 50px;
+    display: flex;
+    padding: 30px 40px 30px 40px;  
+}
+.k15{
+    border: solid;
+    height: 70vh;
+    width: 100vw;
+    background-color:#05141f;
+}
+.k15 h3 {
+   border: solid;
+   height: 5vh;
+   width: 5vw;
+   color: white;
+  
+}
+.k15 h4{
+color: rgb(92, 88, 88);
+}
+
+/* .a {
+   color: white;
+   background-color: rgb(13, 172, 235);
+   font-style: normal;
+   font-size: 15px;
+   border-radius:40vh;
+   
+}
+.b{
+    font-size: 20px;
+    border-radius:40vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5vh;
+
+}
+.c {
+    color: white;
+    background-color: black;
+    font-style: normal;
+    font-size: 20px;
+    border-radius:40vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5vh;
+ } */
+/* .k13{
+    margin-top: 10vh;
+    font-size: 20px;
+    border-radius:40vh;
+   
+}
+.k13 h1{
+   margin-top: -5vh;
+   padding-left: 130vh;
+   font-style: italic;
+}
+.k13 p{
+    padding-top: 5vh;
+   padding-left: 150vw;
+    padding-bottom: 10vh;
+   justify-content: center;
+}
+.k13 img{
+    margin-top: -30vh;
+    border-radius: 70vh;
+}
+.k14 img{
+    border-radius: 20vh; 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ /* @media (max-width: 700px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    header {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .main {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    header nav h3 {
+        display: flex;
+        gap: 70vh;
+    }
+    
+    .logo img {
+        padding-left: 8vh;
+        font-size: 10px;
+        color: rgb(3, 3, 3);
+    }
+    
+    .option {
+        display: flex;
+        gap: 90px;
+        font-size: 16px;
+        margin-top: -5vh;
+        margin-left: 40vw;
+        color: rgb(110, 113, 116);
+    }
+    
+    .k12 {
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/950/588/small/hands-protecting-trees-world-environment-day-concept-photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        margin-top: 5vh;
+        padding-top: 10vh;
+        padding-left: 4vw;
+        width: 100vw;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .k12 h4 {
+        padding-top: 2vh;
+        font-size: 28px;
+    }
+    
+    .k12 p {
+        padding-top: 90px;
+        font-size: 40px;
+    }
+    
+    .a {
+        color: white;
+        background-color: black;
+        font-style: normal;
+        font-size: 15px;
+        border-radius: 40vh;
+        padding: 10px 20px;
+    }
+    
+    .b {
+        font-size: 20px;
+        border-radius: 40vh;
+        padding: 5px 15px;
+        margin-top: 5vh;
+    }
+    
+    .c {
+        color: white;
+        background-color: black;
+        font-style: normal;
+        font-size: 20px;
+        border-radius: 40vh;
+        padding: 5px 15px;
+        margin-top: 5vh;
+    }
+    
+    @media (max-width: 1200px) {
+        .option {
+            font-size: 14px;
+            margin-left: 20vw;
+            gap: 50px;
+        }
+    
+        .k12 {
+            padding-top: 5vh;
+            padding-left: 2vw;
+            font-size: 20px;
+        }
+    
+        .k12 h4 {
+            font-size: 24px;
+        }
+    
+        .k12 p {
+            font-size: 32px;
+        }
+    
+        .a {
+            font-size: 14px;
+        }
+    
+        .b, .c {
+            font-size: 18px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .logo img {
+            padding-left: 4vh;
+            font-size: 16px;
+        }
+    
+        .option {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin-left: 0;
+        }
+    
+        .k12 {
+            padding-top: 2vh;
+            font-size: 18px;
+        }
+    
+        .k12 h4 {
+            font-size: 22px;
+        }
+    
+        .k12 p {
+            font-size: 28px;
+        }
+    
+        .a {
+            font-size: 13px;
+            padding: 8px 15px;
+        }
+    
+        .b, .c {
+            font-size: 16px;
+            padding: 4px 12px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .logo img {
+            padding-left: 2vh;
+            font-size: 12px;
+        }
+    
+        .option {
+            flex-direction: column;
+            align-items: center;
+            font-size: 12px;
+            gap: 20px;
+        }
+    
+        .k12 {
+            padding-top: 1vh;
+            font-size: 16px;
+        }
+    
+        .k12 h4 {
+            font-size: 20px;
+        }
+    
+        .k12 p {
+            font-size: 24px;
+        }
+    
+        .a {
+            font-size: 12px;
+            padding: 6px 12px;
+        }
+    
+        .b, .c {
+            font-size: 14px;
+            padding: 4px 10px;
+        }
+    }
+ } */
